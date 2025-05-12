@@ -635,6 +635,7 @@ def GetLeveeDataAllPages():
     for article_link in list_of_article_links:
         if article_link["URL"] == "https://www.usine-digitale.fr/article/a-elles-7-ces-start-up-francaises-ont-leve-plus-de-190-millions-d-euros-cette-semaine.N468428":
             break
+        # For some reason couldn't get it to work for these pages so i skipped 👉👈
         elif article_link["URL"] == "https://www.usine-digitale.fr/article/dontnod-alma-chefclub-les-levees-de-fonds-de-la-french-tech-cette-semaine.N1055024":
             continue
         # elif article_link["URL"] == "https://www.usine-digitale.fr/article/exotrail-aryballe-technologies-sorare-les-levees-de-fonds-de-la-semaine.N986609":
